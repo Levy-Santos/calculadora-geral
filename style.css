@@ -1,0 +1,108 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 500px;
+  background-image: url('https://cdn.icon-icons.com/icons2/488/PNG/512/notepad_47704.png');
+  background-color: palevioletred;
+  background-size: 80vh;
+  background-position: center 185px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200x;
+}
+
+
+.operacao{
+  display: block;
+  width: 90px;
+  height: 90px;
+  border:2px solid;
+  border-radius: 0px 30px 0px 30px;
+  background-color: #66ff66;
+  margin-bottom:10px;
+}
+
+#somarSubtrair{
+  position:absolute;
+  top:40%;
+  width: 120px;
+  
+}
+
+#dividirMultiplicar{
+  position:absolute;
+  top:40%;
+  right:0;
+  width: 120px;
+  
+}
+
+#dadosUsuario{
+  position:absolute;
+  display:inline-block;
+  left:50%;
+  transform: translateX(-50%);
+  top:55%;
+
+  
+}
+#igual{
+  display:inline-block;
+  margin-left: 3px;
+}
+
+#n1{
+  display:inline-block;
+  font-size: large;
+  background: rgb(111, 111, 201);
+  border:2px solid;
+  border-radius: 5px 5px 5px 5px;
+  width: 40px;
+
+}
+
+#operador{
+  display:inline-block;
+  font-size: large;
+  width: 40px;
+}
+
+#n2{
+  display:inline-block;
+  background: rgb(111, 111, 201);
+  border:2px solid;
+  border-radius: 5px 5px 5px 5px;
+  font-size: large;
+  width: 40px;
+}
+
+#res{
+  display:inline-block;
+  border: 2px solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0px;
+  text-align:center;
+  padding-bottom:3px;
+  padding-top:3px;
+  background: rgb(111, 111, 201);
+  font-size: large;
+  width: 90px;
+}

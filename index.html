@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levy Santos - Calculadora Geral</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+    Calculadora Geral</h1>
+    <p class="page-subtitle">
+    Super calculadora! Insira dois valores e realize uma das quatro operações basicas clicando nos Símbolos!
+    </p>
+  </div>
+  
+  <div id="somarSubtrair">
+    <img src="https://cdn.discordapp.com/attachments/569951526693634091/887088672820854794/pngwing.com_4.png" id="botaoMenos" class="operacao" onclick="subtrair()">
+    <img src="https://cdn.discordapp.com/attachments/569951526693634091/887088675924619294/pngwing.com_3.png" id="botaoMais" class="operacao" onclick="somar()">
+  </div>
+  
+  <div id= "dividirMultiplicar">
+    <img src="https://cdn.discordapp.com/attachments/569951526693634091/887088680458670150/pngwing.com_2.png" id="botaoVezes" class="operacao" onclick="multiplicar()">
+    <img src="https://cdn.discordapp.com/attachments/569951526693634091/887088683096866886/pngwing.com_1.png" id="botaoDividir" class="operacao" onclick="dividir()">
+  </div>
+  
+  <div id="dadosUsuario">
+    <input id="n1" type="number">  <p id="operador">XXX</p>  <input id="n2" type="number"><p id="igual"> = </p> 
+    <strong><p id="res">resultado</p></strong>
+  </div>
+  </a>
+  <script src="main.js"></script>
+</body>
+</html>
